@@ -1,0 +1,91 @@
+﻿@using MyMVC.Models.Entity
+@model List<Departments>
+
+<style>
+    .page-title {
+        color: #198754;
+        font-weight: bold;
+        margin-bottom: 25px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #198754;
+    }
+
+    .department-table {
+        width: 100%;
+        margin-top: 15px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+        .department-table thead th {
+            background-color: #198754;
+            color: white;
+            text-align: center;
+            padding: 14px;
+        }
+
+        .department-table tbody td {
+            text-align: center;
+            vertical-align: middle;
+            padding: 12px;
+        }
+
+        .department-table tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        .department-table tbody tr:hover {
+            background-color: #e8f5ee;
+            transition: 0.2s;
+        }
+
+    a[href="/Department/add"] {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 22px;
+        background-color: #198754;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    a[href="/Department/add"]:hover {
+            background-color: #0b5ed7;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 12px rgba(13, 110, 253, 0.2);
+        }
+</style>
+
+<h1 class="page-title">All Departments</h1>
+
+<a href="/Department/add"
+   class="btn btn-success mb-3">
+    New Department
+</a>
+
+<table class="table table-hover table-bordered department-table">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Manager</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@(item.MgrName ?? "-")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

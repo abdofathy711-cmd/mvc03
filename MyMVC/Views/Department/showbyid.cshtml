@@ -1,0 +1,126 @@
+﻿@using MyMVC.Models.viewmodel
+@model Departmentviewmodel
+<style>
+  
+    /* Department Details */
+    body {
+        background-color: #fff;
+        font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+        color: #2d3748;
+    }
+
+    /* Department Name */
+    h1 {
+        color: #198754;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        padding-bottom: 12px;
+        border-bottom: 3px solid #0d6efd;
+        display: inline-block;
+    }
+
+    /* Manager Info */
+    p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 1.8;
+    }
+
+        p strong {
+            color: #198754;
+            font-weight: 600;
+        }
+
+    /* Department State Badge */
+    .badge {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        border-radius: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Student Section */
+    div {
+        margin-top: 20px;
+    }
+
+    .form-control {
+        max-width: 450px;
+        padding: 12px 15px;
+        border: 1px solid #d1dbe8;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #198754;
+        font-size: 15px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.12);
+            outline: none;
+        }
+
+    /* Empty Students Message */
+    .text-muted {
+        color: #198754 !important;
+        background-color: #edf2f7;
+        padding: 15px 20px;
+        border-radius: 10px;
+        max-width: 450px;
+        border-left: 4px solid #a0aec0;
+    }
+
+    /* Back To List Link */
+    a[href="/Department/showall"] {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 10px 22px;
+        background-color: #198754;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+        a[href="/Department/showall"]:hover {
+            background-color:#0d6efd;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 12px rgba(13, 110, 253, 0.2);
+        }
+    </style>
+<h1>Department Name : @Model.DepName</h1>
+<p>Manager: <strong>@Model.ManName</strong></p>
+
+<p>
+    State :
+    @if (Model.DepState == "Main")
+    {
+        <span class="badge bg-success">Main</span>
+    }
+    else
+    {
+        <span class="badge bg-secondary">Branch</span>
+    }
+</p>
+<div>
+
+
+    @if (Model.students.Count == 0)
+    {
+        <p class="text-muted">No students older than 25 in this department.</p>
+    }
+    else
+    {
+        <select name="studentId" class="form-control" asp-items="Model.students">
+            <option value="">-- Select student --</option>
+        </select>
+    }
+</div>
+
+<a href="/Department/showall">Back to list</a>
