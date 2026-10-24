@@ -16,7 +16,7 @@ namespace MyMVC.ADbContext
         }
         override protected void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new Configuration.DepartmentConFiguration());
+            modelBuilder.ApplyConfiguration(new Configuration.DepartmentConfiguration());
             modelBuilder.ApplyConfiguration(new Configuration.StudentConfiguration());
             modelBuilder.ApplyConfiguration(new Configuration.CourseConfiguration());
             modelBuilder.ApplyConfiguration(new Configuration.STtuCrsResConfiguration());

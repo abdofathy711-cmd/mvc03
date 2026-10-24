@@ -59,12 +59,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxzaG93YnlpZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/alldetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxhbGxkZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/Deletecshtml.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGVjc2h0bWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/DetailbyID.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxieUlELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/abdelrhman/OneDrive - October 6 University Egypt/Desktop/ASP-MVC/mvc-day03/MyMVC/MyMVC/Pages/Shared/_Layout.cshtml]

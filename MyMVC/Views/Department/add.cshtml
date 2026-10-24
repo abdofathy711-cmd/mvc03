@@ -1,127 +1,36 @@
-﻿@using MyMVC.Models.Entity
+@using MyMVC.Models.Entity
 @model Departments
 
-<style>
-    .department-container {
-        max-width: 600px;
-        margin: 35px auto;
-        padding: 30px;
-        background-color: #fff;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    }
+@{
+    ViewData["Title"] = "Add Department";
+}
 
-    .page-title {
-        color: #198754;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 25px;
-        padding-bottom: 15px;
-        border-bottom: 2px solid #198754;
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #333;
-        }
-
-    .form-control {
-        width: 100%;
-        border-radius: 6px;
-        padding: 10px 12px;
-        border: 1px solid #ced4da;
-        transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-        .form-control:focus {
-            border-color: #198754;
-            box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.15);
-            outline: none;
-        }
-
-    .btn-add {
-        background-color: #198754;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        padding: 10px 25px;
-        font-weight: 600;
-        cursor: pointer;
-    }
-
-        .btn-add:hover {
-            background-color: #146c43;
-            color: white;
-        }
-
-    .back-link {
-        display: inline-block;
-        margin-top: 20px;
-        text-decoration: none;
-        font-weight: 600;
-    }
-
-        .back-link:hover {
-            text-decoration: underline;
-        }
-
-    .text-danger {
-        font-size: 14px;
-        margin-top: 5px;
-        display: block;
-    }
-
-    a[href="/Department/showall"] {
-        display: inline-block;
-        margin-top: 30px;
-        padding: 10px 22px;
-        background-color: #198754;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 8px;
-        font-size: 15px;
-        font-weight: 600;
-        transition: all 0.3s ease;
-    }
-
-        a[href="/Department/showall"]:hover {
-            background-color: #0b5ed7;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 12px rgba(13, 110, 253, 0.2);
-        }
-</style>
-
+@* تعديل: استخدام الكلاس الموحد department-container مع الـ CSS العام *@
 <div class="department-container">
 
-    <h1 class="page-title">Add Department</h1>
+    <h1 class="page-title text-center">Add Department</h1>
 
-    <form action="/Department/saveadd" method="get">
+    @* تعديل: توجيه الفورم بالـ Tag Helpers *@
+    <form asp-action="saveadd" asp-controller="Department" method="get">
 
         <div class="form-group">
-            <label >Name</label>
-            <input type="text" name="Name" value="@Model?.Name" id="Name" class="form-control" />
-
+            <label asp-for="Name">Department Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter department name" />
         </div>
 
         <div class="form-group">
-         <label>manger name</label>
-            <input type="text" name="MgrName" value="@Model?.MgrName" id="MgrName" class="form-control"/>
+            <label asp-for="MgrName">Manager Name</label>
+            <input asp-for="MgrName" class="form-control" placeholder="Enter manager name" />
         </div>
 
-        <input type="submit" value="add" class="btn btn-primary mt-3"/>
-
+        <div class="mt-4">
+            @* تعديل: توحيد تصميم زرار الحفظ مع باقي الفورمز *@
+            <input type="submit" value="Add Department" class="btn-save" />
+            @* تعديل: توحيد رابط الرجوع بنفس التنسيق الموحد *@
+            <a asp-action="showall" asp-controller="Department" class="back-link">Back to list</a>
+        </div>
 
     </form>
 
-    <a href="/Department/showall"
-       class="btn btn-secondary back-link">
-        Back to list
-    </a>
-
 </div>
+

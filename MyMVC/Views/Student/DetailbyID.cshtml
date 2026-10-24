@@ -1,114 +1,61 @@
-﻿@using MyMVC.Models.Entity
-@Model Student
+@using MyMVC.Models.Entity
+@* تعديل: تصحيح الصيغة إلى model@ مع كتابة اسم الـ Entity بشكل صحيح Students بدلاً من خطأ Model Student *@
+@model Students
 
-<style>
-    body {
-        margin: 0;
-        font-family: "Segoe UI", Tahoma, sans-serif;
-        background: #f3f5f9;
-        color: #1f2937;
-    }
+@{
+    ViewData["Title"] = "Student Details";
+}
 
-    .page {
-        max-width: 860px;
-        margin: 48px auto;
-        padding: 0 16px;
-    }
+@* تعديل: توحيد تصميم صفحة التفاصيل مع باقي النظام باستخدام details-container واللون الأخضر *@
+<div class="details-container">
 
-    .header {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        margin-bottom: 16px;
-    }
-
-        .header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-
-    .badge {
-        background: #e0e7ff;
-        color: #3730a3;
-        padding: 4px 12px;
-        border-radius: 999px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .card {
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
-        overflow: hidden;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    thead th {
-        background: #4f46e5;
-        color: #fff;
-        text-align: left;
-        padding: 14px 18px;
-        font-size: 14px;
-        letter-spacing: .5px;
-    }
-
-    tbody td {
-        padding: 14px 18px;
-        border-bottom: 1px solid #eef0f4;
-    }
-
-    tbody tr:hover {
-        background: #eef2ff;
-    }
-
-    tbody tr:last-child td {
-        border-bottom: none;
-    }
-
-    .empty {
-        text-align: center;
-        padding: 48px 16px;
-        color: #6b7280;
-    }
-</style>
-
-<div class="page">
-    <div class="header">
-        <h1>Student Details</h1>
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="page-title mb-0 border-0 pb-0">Student Details</h1>
         @if (Model != null)
         {
-            <span class="badge">ID: @Model.Id</span>
+            <span class="app-badge badge-main">ID: #@Model.Id</span>
         }
     </div>
+    <hr class="mt-2 mb-4" style="border-color: var(--primary);" />
 
-    <div class="card">
-        @if (Model == null)
-        {
-            <div class="empty">No student found.</div>
-        }
-        else
-        {
-            <table>
-                <thead>
-                    <tr>
-                        <th>Student ID</th>
-                        <th>Student Name</th>
-                        <th>Student Age</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>@Model.Id</td>
-                        <td>@Model.Name</td>
-                        <td>@(Model.age?.ToString() ?? "-")</td>
-                    </tr>
-                </tbody>
-            </table>
-        }
-    </div>
+    @if (Model == null)
+    {
+        <div class="alert alert-warning text-center">
+            No student found with this ID.
+        </div>
+    }
+    else
+    {
+        <div class="details-list">
+            <div class="details-item">
+                <span class="details-label">Student ID:</span>
+                <span class="details-value">#@Model.Id</span>
+            </div>
+
+            <div class="details-item">
+                <span class="details-label">Student Name:</span>
+                <span class="details-value">@Model.Name</span>
+            </div>
+
+            <div class="details-item">
+                <span class="details-label">Age:</span>
+                <span class="details-value">@(Model.age?.ToString() ?? "Not specified")</span>
+            </div>
+
+            <div class="details-item">
+                <span class="details-label">Department:</span>
+                <span class="details-value">
+                    @(Model.department?.Name ?? (Model.DepartmentId.HasValue ? $"Department #{Model.DepartmentId}" : "No department assigned"))
+                </span>
+            </div>
+        </div>
+
+        <div class="mt-4 pt-2 d-flex gap-2 align-items-center">
+            @* تعديل: إضافة زر تعديل الطالب وزر الرجوع للقائمة بشكل موحد *@
+            <a asp-action="Edit" asp-controller="Student" asp-route-id="@Model.Id" class="btn-action">Edit Student</a>
+            <a asp-action="alldetails" asp-controller="Student" class="back-link">← Back to Students list</a>
+        </div>
+    }
+
+</div>
 </div>

@@ -1,0 +1,44 @@
+@using MyMVC.Models.Entity
+@model Students
+
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+@* تعديل: استخدام الكلاس الموحد student-container المتناسق مع باقي الفورمز *@
+<div class="student-container">
+
+    <h1 class="page-title text-center">Add Student</h1>
+
+    @* تعديل: ضبط الفورم والإرسال بواسطة Tag Helpers *@
+    <form asp-action="SaveAdd" asp-controller="Student" method="post">
+
+        <div class="form-group">
+            <label asp-for="Name">Student Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter student name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="age">Age</label>
+            <input asp-for="age" type="number" class="form-control" placeholder="Enter student age" />
+            <span asp-validation-for="age" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DepartmentId">Department ID</label>
+            <input asp-for="DepartmentId" type="number" class="form-control" placeholder="Enter department ID" />
+            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            @* تعديل: فصل زرار الإرسال Submit عن رابط الرجوع بدل ما كان جوه الـ a tag *@
+            <input type="submit" value="Add Student" class="btn-save" />
+            @* تعديل: توحيد رابط الرجوع بنفس كلاس back-link الموحد *@
+            <a asp-action="alldetails" asp-controller="Student" class="back-link">Back to list</a>
+        </div>
+
+    </form>
+
+</div>
+

@@ -4,7 +4,7 @@ using MyMVC.Models.Entity;
 
 namespace MyMVC.ADbContext.Configuration
 {
-    internal class DepartmentConFiguration : IEntityTypeConfiguration<Departments>
+    public class DepartmentConfiguration : IEntityTypeConfiguration<Departments>
     {
         public void Configure(EntityTypeBuilder<Departments> builder)
         {
@@ -33,8 +33,5 @@ namespace MyMVC.ADbContext.Configuration
                 .OnDelete(DeleteBehavior.Restrict);
 
         }
-    }
-    public class DepartmentConfiguration
-    {
     }
 }

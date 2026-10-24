@@ -1,0 +1,53 @@
+@using MyMVC.Models.Entity
+@model Students
+
+@{
+    ViewData["Title"] = "Delete Student";
+}
+
+@* تعديل: حاوية منسقة ومتناسقة مع هوية الموقع لحذف الطالب *@
+<div class="delete-container">
+
+    <h1 class="page-title danger-title text-center">Delete Student</h1>
+
+    @* تعديل: تنبيه باللون الأحمر لتأكيد الحذف *@
+    <div class="alert alert-danger text-center mb-4">
+        <strong>Warning!</strong> Are you sure you want to permanently delete this student? This action cannot be undone.
+    </div>
+
+    @* تعديل: عرض ملخص بيانات الطالب للتأكد قبل تنفيذ الحذف *@
+    <div class="details-list">
+        <div class="details-item">
+            <span class="details-label">Student ID:</span>
+            <span class="details-value">#@Model.Id</span>
+        </div>
+
+        <div class="details-item">
+            <span class="details-label">Student Name:</span>
+            <span class="details-value">@Model.Name</span>
+        </div>
+
+        <div class="details-item">
+            <span class="details-label">Age:</span>
+            <span class="details-value">@(Model.age?.ToString() ?? "-")</span>
+        </div>
+
+        <div class="details-item">
+            <span class="details-label">Department:</span>
+            <span class="details-value">
+                @(Model.department?.Name ?? (Model.DepartmentId.HasValue ? $"Department #{Model.DepartmentId}" : "No department assigned"))
+            </span>
+        </div>
+    </div>
+
+    @* تعديل: فورم إرسال أمر الحذف النهائي بالـ POST مع تمرير الـ Id *@
+    <form asp-action="DeleteSave" asp-controller="Student" method="post" class="mt-4 text-center">
+        @* تعديل: إرسال الـ Id في حقل مخفي *@
+        <input type="hidden" asp-for="Id" />
+
+        <input type="submit" value="Yes, Delete Student" class="btn-delete-confirm" />
+        <a asp-action="alldetails" asp-controller="Student" class="back-link">Cancel & Return to list</a>
+    </form>
+
+</div>
+

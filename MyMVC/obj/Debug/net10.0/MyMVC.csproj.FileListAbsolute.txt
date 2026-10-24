@@ -329,7 +329,6 @@ C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-da
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\scopedcss\bundle\MyMVC.styles.css
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\scopedcss\projectbundle\MyMVC.bundle.scp.css
-C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\compressed\75r6a8zkx6-{0}-c2tiyv64ts-c2tiyv64ts.gz
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\compressed\ninvtycuvw-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\compressed\iv1994rgdt-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\compressed\dpm4clxfuk-{0}-agp80tu62r-agp80tu62r.gz
@@ -402,3 +401,5 @@ C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-da
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\MyMVC.pdb
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\MyMVC.genruntimeconfig.cache
 C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\ref\MyMVC.dll
+C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\MyMVC.sourcelink.json
+C:\Users\abdelrhman\OneDrive - October 6 University Egypt\Desktop\ASP-MVC\mvc-day03\MyMVC\MyMVC\obj\Debug\net10.0\compressed\75r6a8zkx6-{0}-vkei0fn2ys-vkei0fn2ys.gz

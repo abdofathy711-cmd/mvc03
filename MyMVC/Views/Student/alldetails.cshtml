@@ -1,111 +1,50 @@
-﻿@using MyMVC.Models.Entity
-@Model List<Student>
+@using MyMVC.Models.Entity
+@model List<Students>
 
-<style>
-    body {
-        margin: 0;
-        font-family: "Segoe UI", Tahoma, sans-serif;
-        background: #f3f5f9;
-        color: #1f2937;
-    }
+@{
+    ViewData["Title"] = "All Students";
+}
 
-    .page {
-        max-width: 860px;
-        margin: 48px auto;
-        padding: 0 16px;
-    }
+@* تعديل: استخدام الكلاس الموحد page-title *@
+<h1 class="page-title">All Students</h1>
 
-    .header {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        margin-bottom: 16px;
-    }
+@* تعديل: زرار إضافة طالب بتنسيق btn-add الموحد *@
+<a asp-action="add" asp-controller="Student" class="btn-add mb-3">New Student</a>
 
-        .header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-
-    .badge {
-        background: #e0e7ff;
-        color: #3730a3;
-        padding: 4px 12px;
-        border-radius: 999px;
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    .card {
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, .08);
-        overflow: hidden;
-    }
-
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    thead th {
-        background: #4f46e5;
-        color: #fff;
-        text-align: left;
-        padding: 14px 18px;
-        font-size: 14px;
-        letter-spacing: .5px;
-    }
-
-    tbody td {
-        padding: 14px 18px;
-        border-bottom: 1px solid #eef0f4;
-    }
-
-    tbody tr:nth-child(even) {
-        background: #f9fafb;
-    }
-
-    tbody tr:hover {
-        background: #eef2ff;
-    }
-
-    tbody tr:last-child td {
-        border-bottom: none;
-    }
-
-    .empty {
-        text-align: center;
-        padding: 48px 16px;
-        color: #6b7280;
-    }
-</style>
-
-<div class="page">
-    <div class="header">
-        <h1>Students</h1>
-        <span class="badge">@Model.Count total</span>
-    </div>
-
-    <div class="card">
-        <table>
-            <thead>
+@* تعديل: تغليف الجدول داخل table-card لضبط الحواف والظلال بشكل متناسق *@
+<div class="table-card">
+    <table class="student-table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>Actions</th> @* تعديل: إضافة اسم للعمود *@
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
                 <tr>
-                    <th>Number</th>
-                    <th>Name</th>
-                    <th>Age</th>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@(item.age?.ToString() ?? "-")</td>
+                    @* تعديل: عرض اسم القسم بدلاً من رقمه فقط مع دعم القيمة الفارغة *@
+                    <td>@(item.department?.Name ?? (item.DepartmentId.HasValue ? $"Dept #{item.DepartmentId}" : "-"))</td>
+                    <td>
+                        <div class="d-flex justify-content-center gap-2">
+                            @* تعديل: زرار Details لعرض تفاصيل الطالب بتنسيق btn-action الموحد *@
+                            <a asp-action="DetailbyID" asp-controller="Student" asp-route-id="@item.Id" class="btn-action">Details</a>
+                            @* تعديل: تصحيح الرابط للـ Edit باستخدام Tag Helper وتمرير item.Id بتنسيق btn-edit الموحد *@
+                            <a asp-action="Edit" asp-controller="Student" asp-route-id="@item.Id" class="btn-edit">Edit</a>
+                            @* تعديل: زرار Delete لنقل المستخدم لصفحة تأكيد الحذف المتصلة بالـ Delete View *@
+                            <a asp-action="Delete" asp-controller="Student" asp-route-id="@item.Id" class="btn-action btn-danger-action">Delete</a>
+                        </div>
+                    </td>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.Id</td>
-                        <td>@item.Name</td>
-                        <td>@(item.age?.ToString() ?? "-")</td>
-                    </tr>
-                }
-            </tbody>
-        </table> 
-    </div>
+            }
+        </tbody>
+    </table>
+</div>
 </div>

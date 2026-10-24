@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\department\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\department\\showbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\department\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\student\\alldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\student\\alldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\department\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\department\\showall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\student\\deletecshtml.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\student\\deletecshtml.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\models\\businesslogic\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\models\\businesslogic\\studentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\models\\viewmodel\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\models\\viewmodel\\departmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\models\\businesslogic\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\models\\businesslogic\\departmentbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|c:\\users\\abdelrhman\\onedrive - october 6 university egypt\\desktop\\asp-mvc\\mvc-day03\\mymvc\\mymvc\\models\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{039C5FD2-EFD6-18B6-7F35-2D65EF233C46}|MyMVC\\MyMVC.csproj|solutionrelative:mymvc\\models\\entity\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,89 +53,93 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "showbyid.cshtml",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\showbyid.cshtml",
-              "RelativeDocumentMoniker": "MyMVC\\Views\\Department\\showbyid.cshtml",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\showbyid.cshtml",
-              "RelativeToolTip": "MyMVC\\Views\\Department\\showbyid.cshtml",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-23T13:40:07.718Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-10-24T17:12:09.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "showall.cshtml",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\showall.cshtml",
-              "RelativeDocumentMoniker": "MyMVC\\Views\\Department\\showall.cshtml",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\showall.cshtml",
-              "RelativeToolTip": "MyMVC\\Views\\Department\\showall.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAQwD8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-23T13:31:25.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentBL.cs",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\BusinessLogic\\DepartmentBL.cs",
-              "RelativeDocumentMoniker": "MyMVC\\Models\\BusinessLogic\\DepartmentBL.cs",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\BusinessLogic\\DepartmentBL.cs",
-              "RelativeToolTip": "MyMVC\\Models\\BusinessLogic\\DepartmentBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T12:51:26.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\Entity\\Student.cs",
-              "RelativeDocumentMoniker": "MyMVC\\Models\\Entity\\Student.cs",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\Entity\\Student.cs",
-              "RelativeToolTip": "MyMVC\\Models\\Entity\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-23T12:35:10.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Departmentviewmodel.cs",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\viewmodel\\Departmentviewmodel.cs",
-              "RelativeDocumentMoniker": "MyMVC\\Models\\viewmodel\\Departmentviewmodel.cs",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\viewmodel\\Departmentviewmodel.cs",
-              "RelativeToolTip": "MyMVC\\Models\\viewmodel\\Departmentviewmodel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T20:26:14.958Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "add.cshtml",
-              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\add.cshtml",
-              "RelativeDocumentMoniker": "MyMVC\\Views\\Department\\add.cshtml",
-              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Department\\add.cshtml",
-              "RelativeToolTip": "MyMVC\\Views\\Department\\add.cshtml",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAQwFMAAAAhAAAAAAAAAA==",
+              "Title": "alldetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\alldetails.cshtml",
+              "RelativeDocumentMoniker": "MyMVC\\Views\\Student\\alldetails.cshtml",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\alldetails.cshtml",
+              "RelativeToolTip": "MyMVC\\Views\\Student\\alldetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-21T19:07:02.921Z"
+              "WhenOpened": "2026-10-24T17:12:09.044Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyMVC\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "MyMVC\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-24T17:12:08.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Deletecshtml.cshtml",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\Deletecshtml.cshtml",
+              "RelativeDocumentMoniker": "MyMVC\\Views\\Student\\Deletecshtml.cshtml",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Views\\Student\\Deletecshtml.cshtml",
+              "RelativeToolTip": "MyMVC\\Views\\Student\\Deletecshtml.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-24T17:07:33.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "MyMVC\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "MyMVC\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:59:39.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "MyMVC\\Controllers\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "MyMVC\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwB4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T19:51:05.289Z"
+              "WhenOpened": "2026-10-24T16:58:37.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentBL.cs",
+              "DocumentMoniker": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\BusinessLogic\\StudentBL.cs",
+              "RelativeDocumentMoniker": "MyMVC\\Models\\BusinessLogic\\StudentBL.cs",
+              "ToolTip": "C:\\Users\\abdelrhman\\OneDrive - October 6 University Egypt\\Desktop\\ASP-MVC\\mvc-day03\\MyMVC\\MyMVC\\Models\\BusinessLogic\\StudentBL.cs",
+              "RelativeToolTip": "MyMVC\\Models\\BusinessLogic\\StudentBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T16:56:56.967Z"
             }
           ]
         }
